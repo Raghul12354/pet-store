@@ -38,7 +38,9 @@ export default function TabLayout() {
         name="index"
         options={{
           title: "Home",
-          tabBarIcon: ({ color }) => (
+          tabBarInactiveTintColor: '#818AF9',
+          tabBarActiveTintColor: 'black',
+          tabBarIcon: ({color}) => (
             <IconSymbol size={28} name="house.fill" color={color} />
           ),
         }}
